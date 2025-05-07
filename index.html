@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11.11 JEWELSS | Minimalist & Chic Jewelry</title>
+    <meta name="description" content="Modern jewelry brand specializing in minimalist and chic pieces. Explore our collection of bracelets, necklaces, earrings, and rings.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <div class="container-custom">
+            <div class="header-content">
+                <a href="index.html" class="logo">11.11 JEWELSS</a>
+                
+                <!-- Desktop Navigation -->
+                <nav class="desktop-nav">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="products.html" class="nav-link">Products</a>
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </nav>
+                
+                <!-- Social & Mobile Menu Button -->
+                <div class="header-actions">
+                    <a href="https://instagram.com/11.11.jewelss" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                    <a href="products.html" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path><path d="M3 6h18"></path><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+                        <span class="sr-only">Shop</span>
+                    </a>
+                    <button id="mobile-menu-btn" class="mobile-menu-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="menu-icon"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
+                        <span class="sr-only">Menu</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu">
+            <nav class="mobile-nav">
+                <a href="index.html" class="mobile-nav-link">Home</a>
+                <a href="about.html" class="mobile-nav-link">About</a>
+                <a href="products.html" class="mobile-nav-link">Products</a>
+                <a href="gallery.html" class="mobile-nav-link">Gallery</a>
+                <a href="contact.html" class="mobile-nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-slider" id="hero-slider">
+                <div class="hero-slide active">
+                    <img src="https://placehold.co/1600x800" alt="Jewelry collection">
+                </div>
+                <div class="hero-slide">
+                    <img src="https://placehold.co/1600x800" alt="Model wearing jewelry">
+                </div>
+                <div class="hero-slide">
+                    <img src="https://placehold.co/1600x800" alt="Jewelry flatlay">
+                </div>
+                <div class="hero-slider-dots">
+                    <button class="slider-dot active" data-index="0"></button>
+                    <button class="slider-dot" data-index="1"></button>
+                    <button class="slider-dot" data-index="2"></button>
+                </div>
+            </div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">11.11 JEWELSS</h1>
+                    <p class="hero-subtitle">Minimalist & Chic Jewelry for Every Occasion</p>
+                    <a href="products.html" class="btn-primary">Explore Collection</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products -->
+        <section class="featured-products-section">
+            <div class="container-custom">
+                <h2 class="section-title">Trending Pieces</h2>
+                <p class="section-subtitle">Discover our most popular minimalist designs</p>
+                
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-card-image-container">
+                            <img src="https://placehold.co/300x400" alt="Minimalist Chain Bracelet" class="product-card-image">
+                            <div class="product-card-overlay">
+                                <a href="https://instagram.com/11.11.jewelss" class="product-card-icon" target="_blank" rel="noopener noreferrer">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-card-content">
+                            <h3 class="product-card-title">Minimalist Chain Bracelet</h3>
+                            <p class="product-card-price">₹349</p>
+                            <p class="product-card-category">Bracelets</p>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-card-image-container">
+                            <img src="https://placehold.co/300x400" alt="Dainty Layered Necklace" class="product-card-image">
+                            <div class="product-card-overlay">
+                                <a href="https://instagram.com/11.11.jewelss" class="product-card-icon" target="_blank" rel="noopener noreferrer">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-card-content">
+                            <h3 class="product-card-title">Dainty Layered Necklace</h3>
+                            <p class="product-card-price">₹399</p>
+                            <p class="product-card-category">Necklaces</p>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-card-image-container">
+                            <img src="https://placehold.co/300x400" alt="Simple Hoop Earrings" class="product-card-image">
+                            <div class="product-card-overlay">
+                                <a href="https://instagram.com/11.11.jewelss" class="product-card-icon" target="_blank" rel="noopener noreferrer">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-card-content">
+                            <h3 class="product-card-title">Simple Hoop Earrings</h3>
+                            <p class="product-card-price">₹329</p>
+                            <p class="product-card-category">Earrings</p>
+                        </div>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-card-image-container">
+                            <img src="https://placehold.co/300x400" alt="Thin Stacking Ring" class="product-card-image">
+                            <div class="product-card-overlay">
+                                <a href="https://instagram.com/11.11.jewelss" class="product-card-icon" target="_blank" rel="noopener noreferrer">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-card-content">
+                            <h3 class="product-card-title">Thin Stacking Ring</h3>
+                            <p class="product-card-price">₹299</p>
+                            <p class="product-card-category">Rings</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-10">
+                    <a href="products.html" class="btn-secondary">
+                        View All Products
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-right"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials-section">
+            <div class="container-custom">
+                <h2 class="section-title">Customer Love</h2>
+                <p class="section-subtitle">What our customers say about our jewelry</p>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <img src="https://placehold.co/100x100" alt="Riddhi Singhal">
+                            </div>
+                            <h3 class="testimonial-name">Riddhi Singhal</h3>
+                        </div>
+                        <p class="testimonial-text">I love my new necklace from 11.11 JEWELSS! The quality is amazing and it goes with everything in my wardrobe.</p>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <img src="https://placehold.co/100x100" alt="Rashi Kedia">
+                            </div>
+                            <h3 class="testimonial-name">Rashi Kedia</h3>
+                        </div>
+                        <p class="testimonial-text">The minimalist design is exactly what I was looking for. Will definitely be ordering more pieces soon!</p>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                <img src="https://placehold.co/100x100" alt="Arushi">
+                            </div>
+                            <h3 class="testimonial-name">Arushi</h3>
+                        </div>
+                        <p class="testimonial-text">Affordable luxury that doesn't compromise on quality. My bracelet still looks brand new after months of wear.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Instagram Feed -->
+        <section class="instagram-section">
+            <div class="container-custom">
+                <h2 class="section-title">Follow Us on Instagram</h2>
+                <p class="section-subtitle">
+                    <a href="https://instagram.com/11.11.jewelss" class="instagram-link" target="_blank" rel="noopener noreferrer">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                        @11.11.jewelss
+                    </a>
+                </p>
+                
+                <div class="instagram-feed">
+                    <div class="instagram-item">
+                        <img src="https://placehold.co/300x300" alt="Instagram post" class="instagram-image">
+                        <div class="instagram-overlay">
+                            <a href="https://instagram.com/11.11.jewelss" class="instagram-icon" target="_blank" rel="noopener noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="instagram-item">
+                        <img src="https://placehold.co/300x300" alt="Instagram post" class="instagram-image">
+                        <div class="instagram-overlay">
+                            <a href="https://instagram.com/11.11.jewelss" class="instagram-icon" target="_blank" rel="noopener noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="instagram-item">
+                        <img src="https://placehold.co/300x300" alt="Instagram post" class="instagram-image">
+                        <div class="instagram-overlay">
+                            <a href="https://instagram.com/11.11.jewelss" class="instagram-icon" target="_blank" rel="noopener noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="instagram-item">
+                        <img src="https://placehold.co/300x300" alt="Instagram post" class="instagram-image">
+                        <div class="instagram-overlay">
+                            <a href="https://instagram.com/11.11.jewelss" class="instagram-icon" target="_blank" rel="noopener noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="instagram-item">
+                        <img src="https://placehold.co/300x300" alt="Instagram post" class="instagram-image">
+                        <div class="instagram-overlay">
+                            <a href="https://instagram.com/11.11.jewelss" class="instagram-icon" target="_blank" rel="noopener noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="instagram-item">
+                        <img src="https://placehold.co/300x300" alt="Instagram post" class="instagram-image">
+                        <div class="instagram-overlay">
+                            <a href="https://instagram.com/11.11.jewelss" class="instagram-icon" target="_blank" rel="noopener noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="instagram-item">
+                        <img src="https://placehold.co/300x300" alt="Instagram post" class="instagram-image">
+                        <div class="instagram-overlay">
+                            <a href="https://instagram.com/11.11.jewelss" class="instagram-icon" target="_blank" rel="noopener noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="instagram-item">
+                        <img src="https://placehold.co/300x300" alt="Instagram post" class="instagram-image">
+                        <div class="instagram-overlay">
+                            <a href="https://instagram.com/11.11.jewelss" class="instagram-icon" target="_blank" rel="noopener noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container-custom">
+            <div class="footer-grid">
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <h3 class="footer-title">11.11 JEWELSS</h3>
+                    <p class="footer-text">Minimalist and chic jewelry for every occasion.</p>
+                    <div class="footer-social">
+                        <a href="https://instagram.com/11.11.jewelss" class="footer-social-link" target="_blank" rel="noopener noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-list">
+                        <li><a href="index.html" class="footer-link">Home</a></li>
+                        <li><a href="about.html" class="footer-link">About Us</a></li>
+                        <li><a href="products.html" class="footer-link">Products</a></li>
+                        <li><a href="gallery.html" class="footer-link">Gallery</a></li>
+                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Collections -->
+                <div class="footer-links">
+                    <h3 class="footer-title">Collections</h3>
+                    <ul class="footer-list">
+                        <li><a href="products.html" class="footer-link">Bracelets</a></li>
+                        <li><a href="products.html" class="footer-link">Necklaces</a></li>
+                        <li><a href="products.html" class="footer-link">Earrings</a></li>
+                        <li><a href="products.html" class="footer-link">Rings</a></li>
+                        <li><a href="products.html" class="footer-link">New Arrivals</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-contact">
+                    <h3 class="footer-title">Contact Us</h3>
+                    <ul class="footer-list">
+                        <li class="footer-contact-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                            <span>@11.11.jewelss</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="footer-bottom">
+                <p class="copyright">
+                    &copy; <span id="current-year"></span> 11.11 JEWELSS. All rights reserved.
+                </p>
+                <div class="footer-legal">
+                    <a href="#" class="footer-legal-link">Privacy Policy</a>
+                    <a href="#" class="footer-legal-link">Terms of Service</a>
+                    <a href="#" class="footer-legal-link">Shipping Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
